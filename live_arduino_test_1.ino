@@ -18,7 +18,7 @@ void loop() {
         while(Serial.read()!=48)
         {}
                 
-    if(command == 48 & state==1)
+    if(command == 48 && state==1)
         Serial.println(0);
         state = 0;
         digitalWrite(10, state);    
