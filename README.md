@@ -39,4 +39,22 @@ Realizovati sistem uz pomoć Arduino Mega koji poseduje taster i jednu diodu. Uz
 C)
 Realizovati sistem koristeći Arduino Mega koji poseduje taster i tri diode. Uz pomoć pollinga obezbediti da se svakim pritiskom pale diode na sledeći način: 1-pritisak: samo prva; 2-pritisak - prva i druga; 3-pritisak : sve tri; 4 -pritisak : sve ugašene; 5-pritisak: samo prva; 6-pritisak: prva i druga; 7-pritisak sve tri... i tako dalje po datom šablonu.
 
+Lab 2 (2025)
+Napomena - radite samo jedan od zadataka, zavisno od vašeg broja indeksa! 
+Maksimalan broj poena: 7
 
+A)
+Realizovati sistem koristeći Arduino Mega, SRF04 senzor i 6 LED dioda proizvoljne boje. Sistem simulira bacanje kockice za društvene igre - svake 3 sekunde se vrši proveri ako je rastojanje ruke od senzora manje od 5cm, generiše se nasumična vrednost od 1 do 6 i prikazuje paljenjem odgovarajućih LED dioda. Dobijena vrednost stoji prikazana sve dok se opet ne detektuje ruka na rastojanju manjem od 5cm.
+
+B)
+Realizovati sistem uz pomoć Arduino Mega, servo motora, dva tastera i jedne LED diode. Preko 2 interapta implementirati da tasteri obezbeđuju rotaciju motora u suprotnim smerovima. U slučaju dostizanja maksimalne rotacije u jednom od smerova, upaliti crvenu led diodu.
+
+Lab 3 (2025)
+Napomena - radite samo jedan od zadataka, zavisno od vašeg broja indeksa! 
+Maksimalan broj poena: 7
+
+A)
+Realizovati uz pomoć Arduino Mega sistem koji uzima u obzir dva tastera povezana na proizvoljne pinove (logic state elementi su dozvoljeni) i zavisno od toga pali zelenu ili crvenu diodu. Ukoliko je vrednost prvog pina 1 -> pali se crvena LED dioda, a ukoliko se je vrednost drugog pina 1-> pali se zelena Za realizaciju koristiti FreeRTOS i taskove. Sistem ažurira stanje dioda svake 3 sekunde - prvo crvene, a zatim zelene i tako ciklično.
+
+B)
+Realizovati uz pomoć Arduino Mega sistem koji vrši decimalno dekodiranje vrednosti zadatih pomoću četiri tastera povezana na proizvoljne pinove (logic state elementi su dozvoljeni) i zavisno od toga prikazuje odgovarajuće cifre na LCD displeju.  Prva dva tastera kodiraju prvu cifru, a preostala dva drugu. Recimo, ako su vrednosti  01 10 -> LCD prikazuje 12, ako su 11 11 -> LCD prikazuje 33, za 00 00 -> 00 i slično. Za realizaciju koristiti FreeRTOS i taskove. Sistem ažurira stanje svake od cifara 3 sekunde - prvo za prva dva tastera, a zatim zelene i za druga dva, dok u međuvremenu pre ažuriranja za cifru stoji "X".
