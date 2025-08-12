@@ -1,8 +1,8 @@
 1. Dodatni zadatak (2025)
 Realizovati sistem štoperice koja broji vreme u sekundama (maksimalna vrednost koja se može prikazati je 60 minuta - broji od 00:00 do 60:00) korišćenjem Arduino Mega 2560 i pomoćnih uređaja u Proteusu:
-1) Taster za aktivaciju/deaktvaciju brojanja
-2) Taster za resetovanja brojača na 00:00
-3) LCD displej LM-016L 
+- Taster za aktivaciju/deaktvaciju brojanja
+- Taster za resetovanja brojača na 00:00
+- LCD displej LM-016L 
 NAPOMENA: Zadatak se radi individualno i nosi do 15 poena. Veći broj poena dobijaju rešenja koja uspevaju da primene tajmer za merenje vremena i prekide. Realizaciju funkcionalnosti oba tastera realizovati obavezno uz pomoć zasebnih prekida. Pored kvaliteta rešenja, redosled predaje zadatka može uticati na broj poena (do 2 poena razlike po redosledu predaje rešenja).
 
 
